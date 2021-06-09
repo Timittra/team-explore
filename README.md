@@ -34,8 +34,8 @@ But it was interesting for me. I have used React Router through out the project.
 
 ---
 
-[Link of Project](https://laughing-spence-0d904b.netlify.app/)
+[Link of Project](https://teamexplore.netlify.app/)
 
 **Netlify Link:** 
 
-<https://laughing-spence-0d904b.netlify.app/>
+<https://teamexplore.netlify.app/>
