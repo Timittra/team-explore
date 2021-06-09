@@ -1,0 +1,92 @@
+.banner{
+    background-position: cover;
+    background-repeat:no-repeat;
+    padding: 100px;
+    height:500px;
+    width:83%;
+    margin-left:130px;
+    text-align: center;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.team-detail{
+    margin-top: 30px;
+    color:snow;
+}
+.team-info{
+    background-color: rgb(89, 133, 201);
+    padding: 20px;
+    border-radius: 15px;
+}
+.team-info  h6{
+    padding: 10px;
+}
+.team-info-icons{
+    font-size: 20px;
+}
+.team-images img{
+    height: 200px;
+    width: 80%;
+}
+.social-links{
+    text-align: center;
+}
+.social-links a{
+    font-size: 50px;
+    padding: 10px;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.facebook{
+    color: #097EEB;
+ }
+.youTube{
+   color: #FF0000;
+}
+
+/* responsive code  */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .banner{
+        height:450px;
+        width:95%;
+        margin-left:20px;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .banner{
+        height:400px;
+        width:95%;
+        margin-left:20px;
+    }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .banner{
+        height:350px;
+        width:92%;
+        margin-left:20px;
+    }
+  }
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner{
+        height:300px;
+        width:90%;
+        margin-left:20px;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+ }
