@@ -4,4 +4,9 @@
     margin: 30px;
     background-color: whitesmoke;
     padding: 20px;
+    transform: scale(1);
+}
+.team-card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px lightgray;
 }

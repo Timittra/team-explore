@@ -5,6 +5,7 @@ import { Container } from '@material-ui/core';
 import Teams from '../Teams/Teams';
 import './Home.css'
 import BannerImage from '../../images/banner.jpg';
+import logo from '../../images/logo.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,6 +35,9 @@ const Home = () => {
     return (
         <div className='teams-container'>
         <div style={bannerStyle} className='home-banner'>
+            <div className="logo">
+            <img id="logo" src={logo} alt="" />
+            </div>
             <h1>Team Explore</h1>
         </div> 
         <Container maxWidth='lg'>

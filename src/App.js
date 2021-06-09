@@ -8,6 +8,7 @@ import {
 import Home from './components/Home/Home';
 import NoMatch from './components/NoMatch/NoMatch';
 import TeamDetail from './components/TeamDetail/TeamDetail';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <NoMatch/>
         </Route>
       </Switch>
+      <Footer/>
     </Router>
   );
 }
